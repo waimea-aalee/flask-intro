@@ -13,6 +13,10 @@ def home():
 def test():
     return "<h1>Testing... 1, 2, 3</h1>"
 
-@app.get("/two")
+@app.get("/two/")
 def two():
-    return "<h1>Meow</h1>"
+    return render_template("pages/two.jinja")
+
+@app.get("/about/")
+def about():
+    return render_template("pages/about.jinja")
