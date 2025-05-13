@@ -4,5 +4,18 @@
 } */
 
 #hero {
-    --pico-primary-inverse: ;
+    min-height: 20rem;
+    background-color: var(--pico-primary-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+#rand-num {
+    font-size: 10rem;
+    color: var(--pico--primary);
+    font-weight: bold;
+    text-align: center;
 }
